@@ -61,6 +61,9 @@ nav ul li a:hover {
 h1, h2 {
     text-align: center;
     margin-bottom: 15px;
+    color: darkblue;
+    font-style: italic;
+    font-size: 5em;
 
 }
 
@@ -78,10 +81,65 @@ h2 {
 main {
     margin-top: 125px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    align-items: center;
-    justify-content: center;
+    
+}
+#productsX{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-gap: 10px;
+    
+}
+.buy{
+    
+    width: 50px;
+    height: 25px;
+    background-color: blue;
+    color: crimson;
+}
+article .buy :hover{
+    
+    background-color: crimson;
+    color: blue;
+    transform: scale(1.5);
+}
+#sortProductsBy{
+    display: block;
+    margin: 0 auto;
+    
+    width: 300px;
+    height: 60px;
+    background-color:gold;
+    color:darkred;
+    font-size: 1.5em;
+    border-radius: 3%;
+}
+#showCart{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: cyan;
+    color: blue;
+    font-size: 1.5em;
+    border-radius: 3%;
+}
+#clearCart{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    background-color:darkgreen;
+    color:crimson;
+    font-size: 1.5em;
+    border-radius: 3%;
+}
+
+img{
+    width: 1/4 fr;
+    height: 100px;
 }
 
 picture {
